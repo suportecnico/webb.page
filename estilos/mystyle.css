@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* Configuração de caracteres especiais */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Tiny5&display=swap');
+
+:root {
+    --cor1:#001B48;
+    --cor2:#02457A;
+    --cor2:#018ABE;
+    --cor4:#97CADB;
+    --cor5:#D6E8EE;
+    /* Configuração que cria componentes na raiz do documento */
+    --fontePadrao1: "Tiny5", sans-serif;
+    --fontePadrao2: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* Configuração que reseta os parâmentros de margem e preechimento  */
+}
+
+html, body {
+    font-family: var(--fontePadrao2);
+    /* Configuração que define de forma geral para o html, os parâmetros aqui definidos */
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: var(--fontePadrao1);
+    font-size: 18px;
+    color: white;
+}
+
+/* CABEÇALHO */
+header {
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fontePadrao1);
+    font-size: 35px;
+    color: green;
+}
+
+/* MENU DE NAVEGAÇÃO */
+nav {
+    display: grid;
+}
+
+nav > a {
+    font-family: var(--fontePadrao1);
+    text-decoration: none;
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+
+
+}
+
+/* SEÇÕES */
+section {
+
+}
+
+main > section > h2 {
+    font-family: var(--fontePadrao1);
+    color: green;
+}
+
+/* RODAPÉ */
+footer {
+    text-align: center;
+}
+
+footer > p {
+    font-family: var(--fontePadrao1);
+    color: green;
+}
